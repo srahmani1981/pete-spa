@@ -1,0 +1,104 @@
+/* styles.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* Assuming white background */
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#login-form button {
+  padding: 10px;
+  background-color: #FF0000; /* Red color from the logo */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#login-form button:hover {
+  background-color: #cc0000; /* Darker shade for hover state */
+}
+/* Add to your existing styles.css file */
+.report-container {
+  margin: 20px;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.report-table, .report-table th, .report-table td {
+  border: 1px solid #ddd;
+}
+
+.report-table th, .
+report-table td {
+padding: 8px;
+text-align: left;
+}
+
+.report-table th {
+background-color: #f2f2f2;
+color: #333;
+}
+
+.report-table tbody tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+/* Add any additional CSS for styling as needed */
+/* Add to your styles.css file */
+.welcome-message {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333; /* You can choose a color that fits your theme */
+}
+/* Add to your styles.css file */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #FFF; /* You can use a color that matches your theme */
+}
+
+.welcome-message {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.pete-logo {
+  font-size: 2em;
+  color: #FF0000; /* Assuming red is a primary color in the logo */
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 4px #aaa; /* Stylish shadow for depth */
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Program Stats Report</title>
+</head>
+<body>
+<div class="welcome-message">
+  Welcome, <span id="username">User</span>!
+</div>
+  </div>
+  <h1 class="pete-logo">PETE</h1>
+</div>
+	<div class="report-container">
+    <h1>Program Stats Report</h1>
+    <table class="report-table">
+      <thead>
+        <tr>
+          <th colspan="10">Total Program Results</th>
+        </tr>
+        <tr>
+          <th>Qty. Mailed</th>
+          <th># Gifts</th>
+          <th>% Resp</th>
+          <th>Revenue</th>
+          <th>Avg $</th>
+          <th>Cost</th>
+          <th>CPM</th>
+          <th>Net</th>
+          <th>GIPM</th>
+          <th>GIPR</th>
+          <!-- Add more headers as needed -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>636,837</td>
+          <td>14,067</td>
+          <td>2.21%</td>
+          <td>$900,679</td>
+          <td>$64.03</td>
+          <td>$538,937</td>
+          <td>$846</td>
+          <td>$361,742</td>
+          <td>$1,414</td>
+          <td>$64.03</td>
+          <!-- Add more data points as needed -->
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    <!-- Repeat the above table structure for other sections like Acquisition, High Track Acquisition, etc. -->
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var username = localStorage.getItem('username') || 'Guest'; // Get the username from local storage
+    document.getElementById('username').textContent = username;
+  });
+</script>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Head contents like meta tags, title, and styles would go here -->
+</head>
+<body>
+  <div id="login-page">
+    <h1>PETE Login</h1>
+    <button onclick="login()">Log In</button>
+  </div>
+
+  <div id="report-page" style="display:none;">
+    <!-- Report content goes here -->
+    <h1>Program Stats Report</h1>
+    <!-- ... rest of your report ... -->
+  </div>
+
+  <script>
+    function login() {
+      document.getElementById('login-page').style.display = 'none';
+      document.getElementById('report-page').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
